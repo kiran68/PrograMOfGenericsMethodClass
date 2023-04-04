@@ -19,6 +19,6 @@ public class ProgramOfGenerics {
 	 public static void main(String[] args) {
 		
 		
-		System.out.println("Maximum Float Value : " + maximum(2.14,4.15,1.45));
+		System.out.println("Maximum String Value : " + maximum('K','I','R'));
 	 }
 }
