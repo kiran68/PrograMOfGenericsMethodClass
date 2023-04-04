@@ -1,7 +1,7 @@
 package com.bridgelabz.generics;
 
 public class ProgramOfGenerics {
-	 public static <K extends Comparable<K>>K maximum (K x, K y, K z){
+	 public static <K extends Comparable<K>>K maximum (K x, K y, K z, K a, K b){
 		 
 		 K max = x;
 		 
@@ -12,6 +12,12 @@ public class ProgramOfGenerics {
 		 if (z.compareTo(max)>0) {
 			 max = z;
 		 }
+		 if (a.compareTo(max)> 0) {
+			 max = a;
+		 }
+		 if (b.compareTo(max) > 0) {
+			 max = b;
+		 }
 		 
 		 return max;
 		 
@@ -19,6 +25,6 @@ public class ProgramOfGenerics {
 	 public static void main(String[] args) {
 		
 		
-		System.out.println("Maximum String Value : " + maximum('K','I','R'));
+		System.out.println("Maximum String Value : " + maximum('K','I','R', 'Z', 'N'));
 	 }
 }
