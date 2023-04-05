@@ -25,6 +25,8 @@ public class ProgramOfGenerics {
 	 public static void main(String[] args) {
 		
 		
-		System.out.println("Maximum String Value : " + maximum('K','I','R', 'Z', 'N'));
+		System.out.println("Maximum Integer Value : " + maximum(14, 30, 47,10,9));
 	 }
-}
+	
+	}
+
